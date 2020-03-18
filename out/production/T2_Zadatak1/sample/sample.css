@@ -1,0 +1,11 @@
+.root{
+-fx-background-color: gray;
+}
+.button{
+-fx-background-color: blue;
+}
+#labela {
+-fx-font-size: 20px;
+-fx-text-fill: red;
+
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" stylesheets="/sample/sample.css" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#hello" text="Say 'Hello World'" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+      <Label fx:id="labela" alignment="CENTER" contentDisplay="CENTER" text="helloWorld" textAlignment="CENTER" GridPane.halignment="CENTER" />
+   </children>
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints />
+   </rowConstraints>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+</GridPane>
